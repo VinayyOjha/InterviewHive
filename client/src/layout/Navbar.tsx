@@ -10,7 +10,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="my-8 px-6 py-4 md:py-2 flex items-center gap-8 border-[1px] border-neutral-800 rounded-full md:rounded-md text-white">
+    <div className="my-8 px-6 py-4 md:py-2 flex items-center gap-8 border-[1px] border-neutral-800 rounded-full text-white">
       
       <span onClick={()=>navigate("/interview/dashboard")} className="md:p-4 md:border-[1px] border-neutral-800 rounded-md hover:scale-125 hover:rotate-[25] duration-300 cursor-pointer">
         <RiDashboardFill className="w-4 h-4 md:w-6 md:h-6"/>
